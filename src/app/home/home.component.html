@@ -1,0 +1,8 @@
+<div class="conatiner-fluid">
+  <div class="row">
+    <div class="col-md-12 border" *ngFor="let current of photos">
+     
+     <img src="https://farm{{current.farm}}.staticflickr.com/{{current.server}}/{{current.id}}_{{current.secret}}.jpg" alt="" height="250" width="250" style="border:1px solid blue">
+    </div>
+  </div>
+</div>
